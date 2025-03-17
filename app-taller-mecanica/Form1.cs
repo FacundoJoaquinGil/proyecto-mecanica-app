@@ -15,6 +15,39 @@ namespace app_taller_mecanica
         public Form1()
         {
             InitializeComponent();
+            hidePanel();
         }
+
+        //desde aqui 
+
+        private void hidePanel()
+        {
+            panelPresupuesto.Visible = false;
+            panelRegistro.Visible = false;
+        }
+
+        //metodo para los paneles
+
+        private void showPaneles(Panel Paneles)
+        {
+            if (Paneles.Visible == false)
+            {
+                hidePanel();
+                Paneles.Visible = true;
+            }
+            else
+                Paneles.Visible = false;
+        }
+
+        private void btnPresupuesto_Click(object sender, EventArgs e)
+        {
+            showPaneles(panelPresupuesto);
+        }
+
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            showPaneles(panelRegistro);
+        }
+
     }
 }
