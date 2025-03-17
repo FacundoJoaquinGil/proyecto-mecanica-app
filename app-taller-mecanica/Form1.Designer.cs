@@ -33,9 +33,11 @@
             this.btnPresupuesto = new System.Windows.Forms.Button();
             this.btnRegistro = new System.Windows.Forms.Button();
             this.panelPresupuesto = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelRegistro = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnVolverRegistro = new System.Windows.Forms.Button();
+            this.btnVolverPresupuesto = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelPresupuesto.SuspendLayout();
             this.panelRegistro.SuspendLayout();
@@ -76,7 +78,7 @@
             // 
             // panelPresupuesto
             // 
-            this.panelPresupuesto.Controls.Add(this.panelRegistro);
+            this.panelPresupuesto.Controls.Add(this.btnVolverPresupuesto);
             this.panelPresupuesto.Controls.Add(this.label1);
             this.panelPresupuesto.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPresupuesto.Location = new System.Drawing.Point(0, 0);
@@ -84,19 +86,10 @@
             this.panelPresupuesto.Size = new System.Drawing.Size(934, 561);
             this.panelPresupuesto.TabIndex = 3;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(372, 99);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "PANEL PRESUPUESTO";
-            // 
             // panelRegistro
             // 
+            this.panelRegistro.Controls.Add(this.btnVolverRegistro);
             this.panelRegistro.Controls.Add(this.label2);
-            this.panelRegistro.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelRegistro.Location = new System.Drawing.Point(0, 0);
             this.panelRegistro.Name = "panelRegistro";
             this.panelRegistro.Size = new System.Drawing.Size(934, 561);
@@ -111,6 +104,35 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Panel REGISTRO";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(372, 99);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(126, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "PANEL PRESUPUESTO";
+            // 
+            // btnVolverRegistro
+            // 
+            this.btnVolverRegistro.Location = new System.Drawing.Point(732, 472);
+            this.btnVolverRegistro.Name = "btnVolverRegistro";
+            this.btnVolverRegistro.Size = new System.Drawing.Size(75, 23);
+            this.btnVolverRegistro.TabIndex = 1;
+            this.btnVolverRegistro.Text = "Volver";
+            this.btnVolverRegistro.UseVisualStyleBackColor = true;
+            this.btnVolverRegistro.Click += new System.EventHandler(this.btnVolverRegistro_Click);
+            // 
+            // btnVolverPresupuesto
+            // 
+            this.btnVolverPresupuesto.Location = new System.Drawing.Point(756, 464);
+            this.btnVolverPresupuesto.Name = "btnVolverPresupuesto";
+            this.btnVolverPresupuesto.Size = new System.Drawing.Size(75, 23);
+            this.btnVolverPresupuesto.TabIndex = 2;
+            this.btnVolverPresupuesto.Text = "Volver";
+            this.btnVolverPresupuesto.UseVisualStyleBackColor = true;
+            this.btnVolverPresupuesto.Click += new System.EventHandler(this.btnVolverPresupuesto_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -118,13 +140,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(934, 561);
             this.Controls.Add(this.panelPresupuesto);
+            this.Controls.Add(this.panelRegistro);
             this.Controls.Add(this.btnRegistro);
             this.Controls.Add(this.btnPresupuesto);
             this.Controls.Add(this.pictureBox1);
             this.MinimumSize = new System.Drawing.Size(950, 600);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "qqqq";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelPresupuesto.ResumeLayout(false);
             this.panelPresupuesto.PerformLayout();
@@ -143,6 +166,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelRegistro;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnVolverRegistro;
+        private System.Windows.Forms.Button btnVolverPresupuesto;
     }
 }
 

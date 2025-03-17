@@ -49,5 +49,14 @@ namespace app_taller_mecanica
             showPaneles(panelRegistro);
         }
 
+        private void btnVolverRegistro_Click(object sender, EventArgs e)
+        {
+            hidePanel();
+        }
+
+        private void btnVolverPresupuesto_Click(object sender, EventArgs e)
+        {
+            hidePanel();
+        }
     }
 }
