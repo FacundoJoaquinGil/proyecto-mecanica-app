@@ -58,5 +58,7 @@ namespace app_taller_mecanica
         {
             hidePanel();
         }
+
+       
     }
 }
