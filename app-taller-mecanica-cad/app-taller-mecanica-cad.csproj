@@ -5,6 +5,7 @@
     <RootNamespace>app_taller_mecanica_cad</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;app-taller-mecanica</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
