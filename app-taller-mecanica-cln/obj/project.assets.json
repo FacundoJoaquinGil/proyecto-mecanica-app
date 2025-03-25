@@ -389,6 +389,19 @@
             "rid": "win"
           }
         }
+      },
+      "app-taller-mecanica-cad/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "System.Data.SQLite": "1.0.119"
+        },
+        "compile": {
+          "bin/placeholder/app-taller-mecanica-cad.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/app-taller-mecanica-cad.dll": {}
+        }
       }
     }
   },
@@ -1207,31 +1220,37 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "app-taller-mecanica-cad/1.0.0": {
+      "type": "project",
+      "path": "../app-taller-mecanica-cad/app-taller-mecanica-cad.csproj",
+      "msbuildProject": "../app-taller-mecanica-cad/app-taller-mecanica-cad.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "System.Data.SQLite >= 1.0.119"
+      "System.Data.SQLite >= 1.0.119",
+      "app-taller-mecanica-cad >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\facum\\.nuget\\packages\\": {},
+    "C:\\Users\\Matias\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\facum\\OneDrive\\Escritorio\\IMPORTANTE\\proyecto-mecanica-app-master\\app-taller-mecanica-cln\\app-taller-mecanica-cln.csproj",
+      "projectUniqueName": "C:\\Users\\Matias\\Desktop\\Nueva carpeta (2)\\app-taller-mecanica-cln\\app-taller-mecanica-cln.csproj",
       "projectName": "app-taller-mecanica-cln",
-      "projectPath": "C:\\Users\\facum\\OneDrive\\Escritorio\\IMPORTANTE\\proyecto-mecanica-app-master\\app-taller-mecanica-cln\\app-taller-mecanica-cln.csproj",
-      "packagesPath": "C:\\Users\\facum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\facum\\OneDrive\\Escritorio\\IMPORTANTE\\proyecto-mecanica-app-master\\app-taller-mecanica-cln\\obj\\",
+      "projectPath": "C:\\Users\\Matias\\Desktop\\Nueva carpeta (2)\\app-taller-mecanica-cln\\app-taller-mecanica-cln.csproj",
+      "packagesPath": "C:\\Users\\Matias\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Matias\\Desktop\\Nueva carpeta (2)\\app-taller-mecanica-cln\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\facum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Matias\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1240,12 +1259,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Matias\\Desktop\\Nueva carpeta (2)\\app-taller-mecanica-cad\\app-taller-mecanica-cad.csproj": {
+              "projectPath": "C:\\Users\\Matias\\Desktop\\Nueva carpeta (2)\\app-taller-mecanica-cad\\app-taller-mecanica-cad.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1258,7 +1282,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1285,7 +1309,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

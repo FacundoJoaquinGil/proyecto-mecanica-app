@@ -11,18 +11,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app-taller-mecanica-cln", "
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		app-taller-mecanica|Any CPU = app-taller-mecanica|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43729307-85DE-42C3-B6CC-D2A4C49A8CB4}.app-taller-mecanica|Any CPU.ActiveCfg = Release|Any CPU
 		{43729307-85DE-42C3-B6CC-D2A4C49A8CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{43729307-85DE-42C3-B6CC-D2A4C49A8CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43729307-85DE-42C3-B6CC-D2A4C49A8CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43729307-85DE-42C3-B6CC-D2A4C49A8CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B95DFC3-7B54-47FB-B680-906298765B1D}.app-taller-mecanica|Any CPU.ActiveCfg = app-taller-mecanica|Any CPU
+		{0B95DFC3-7B54-47FB-B680-906298765B1D}.app-taller-mecanica|Any CPU.Build.0 = app-taller-mecanica|Any CPU
 		{0B95DFC3-7B54-47FB-B680-906298765B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B95DFC3-7B54-47FB-B680-906298765B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B95DFC3-7B54-47FB-B680-906298765B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B95DFC3-7B54-47FB-B680-906298765B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA288E18-90C6-4EA4-827E-F7DCE64851BC}.app-taller-mecanica|Any CPU.ActiveCfg = Release|Any CPU
+		{BA288E18-90C6-4EA4-827E-F7DCE64851BC}.app-taller-mecanica|Any CPU.Build.0 = Release|Any CPU
 		{BA288E18-90C6-4EA4-827E-F7DCE64851BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA288E18-90C6-4EA4-827E-F7DCE64851BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA288E18-90C6-4EA4-827E-F7DCE64851BC}.Release|Any CPU.ActiveCfg = Release|Any CPU

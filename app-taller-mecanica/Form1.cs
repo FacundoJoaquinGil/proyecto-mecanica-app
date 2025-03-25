@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using app_taller_mecanica_cln;
+
 
 namespace app_taller_mecanica
 {
     public partial class Form1 : Form
     {
+
+        private ClienteCLN clienteCLN = new ClienteCLN();
         public Form1()
         {
             InitializeComponent();
@@ -59,6 +56,35 @@ namespace app_taller_mecanica
             hidePanel();
         }
 
-       
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = clienteCLN.ObtenerClientes();
+        }
+
+        private void GuardarCliente()
+        {
+            string nombreYApellido = txtTitular.Text;
+            string telefono = "123456789"; /* falta el input */ 
+            string domicilio = "Bella Vista"; /* falta el input */
+
+
+        }
+
+        private void GuardarVehiculo()
+        {
+
+        }
+
+        private void GuardarPresupuesto()
+        {
+
+        }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            GuardarCliente();
+            GuardarVehiculo();
+            GuardarPresupuesto();
+        }
     }
 }
